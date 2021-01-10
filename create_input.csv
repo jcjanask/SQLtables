@@ -1,0 +1,22 @@
+table:muid_myTable1,id:int:not_null:key,pname:varchar(15):not_null,price:float:not_null,region:char(4)
+table:muid_myTable2,id:int:not_null:key,pname:char(15):not_null,price:float:not_null,region:char(4):not_null
+table:muid_myTable3,id:int:not_null:key,pname:char(15):not_null,price:int,region:char(4):not_null
+table:muid_myTable4,id:int,pname:char(15):not_null,price:int,region:char(4):not_null
+table:muid_myTable5,id:int:not_null,pname:char(15):not_null,price:int,region:char(4):not_null
+table:muid_myTable5,id:int:not_null,pname:char(15):not_null:key,price:int:not_null,region:char(4):not_null
+
+
+
+Query: CREATE TABLE janaskjc_myTable1 (id INT NOT NULL , pname VARCHAR(15) NOT NULL ,price FLOAT NOT NULL ,region CHAR(4) , PRIMARY KEY (id)  );
+Query is not correct SQL syntax
+Query: CREATE TABLE janaskjc_myTable2 (id INT NOT NULL , pname CHAR(15) NOT NULL ,price FLOAT NOT NULL ,region CHAR(4) NOT NULL , PRIMARY KEY (id)  );
+Query is not correct SQL syntax
+Query: CREATE TABLE janaskjc_myTable3 (id INT NOT NULL , pname CHAR(15) NOT NULL ,price INT ,region CHAR(4) NOT NULL , PRIMARY KEY (id)  );
+Query is not correct SQL syntax
+Query: CREATE TABLE janaskjc_myTable4 (id INT ,pname CHAR(15) NOT NULL ,price INT ,region CHAR(4) NOT NULL  );
+Query is not correct SQL syntax
+Query: CREATE TABLE janaskjc_myTable5 (id INT NOT NULL ,pname CHAR(15) NOT NULL ,price INT ,region CHAR(4) NOT NULL  );
+Query is not correct SQL syntax
+Query: CREATE TABLE janaskjc_myTable6 (id INT NOT NULL ,pname CHAR(15) NOT NULL , price INT NOT NULL ,region CHAR(4) NOT NULL , PRIMARY KEY (pname)  );
+Query is not correct SQL syntax
+

@@ -1,0 +1,5 @@
+muid_tmp,id:1,pname:'ProductX',price:12,category:'2',manufacturer:'a'
+muid_tmp,id:2,pname:'ProductY',price:12.99,category:'2',manufacturer:'b'
+muid_tmp,id:3,pname:'ProductZ',price:1299,category:'3',manufacturer:'c'
+
+Mysql --user=cse278 --password=S3rul3z --database=cse278
